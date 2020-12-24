@@ -1,0 +1,48 @@
+2020-12-21 15:29:32 ERROR UserController:53 - 1608539372540_{"id":null,"name":"abc","address":"HN","age":14,"bookEntities":null}_"addUser"_{"status":false,"message":"Không thể thêm người dùng","timestamp":1608539372540}
+2020-12-21 15:31:29 ERROR UserController:91 - 1608539489434_1_"deleteById"_{"status":false,"message":null,"timestamp":1608539489434}
+2020-12-21 15:32:15 ERROR UserController:53 - 1608539535963_{"id":null,"name":"abc","address":"HN","age":14,"bookEntities":null}_"addUser"_{"status":false,"message":"Không thể thêm người dùng","timestamp":1608539535963}
+2020-12-21 15:35:01 ERROR UserController:53 - 1608539638234_{"id":null,"name":"abc","address":"HN","age":14,"bookEntities":null}_"addUser"_{"status":false,"message":"Không thể thêm người dùng","timestamp":1608539638234}
+2020-12-21 15:36:30 INFO  UserController:52 - 1608539790500_{"id":2,"name":"abc","address":"HN","age":14,"bookEntities":null}_"addUser"_{"status":true,"message":"Thêm người dùng thành công","timestamp":1608539790500}
+2020-12-21 15:36:52 INFO  UserController:84 - 1608539812159_1_"deleteUserById"_{"status":true,"message":"Đã xóa","timestamp":1608539812159}
+2020-12-21 15:41:44 INFO  UserController:52 - 1608540104331_{"id":3,"name":"abc","address":"HN","age":14,"bookEntities":null}_"addUser"_{"status":true,"message":"Thêm người dùng thành công","timestamp":1608540104331}
+2020-12-21 15:42:40 ERROR UserController:72 - 1608540160382_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"update"_{"status":false,"message":"không tìm thấy id câu hỏi","timestamp":1608540160382}
+2020-12-21 15:43:09 ERROR UserController:72 - 1608540189082_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"update"_{"status":false,"message":"không tìm thấy id câu hỏi","timestamp":1608540189082}
+2020-12-21 15:43:46 ERROR UserController:72 - 1608540226121_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"update"_{"status":false,"message":"không tìm thấy id câu hỏi","timestamp":1608540226121}
+2020-12-21 16:04:16 INFO  UserController:52 - 1608541456029_{"id":1,"name":"bbb","author":"aaa","price":12.0,"userEntities":null}_"addBook"_{"status":true,"message":"Đã thêm sách mới","timestamp":1608541456029}
+2020-12-21 16:04:35 INFO  UserController:52 - 1608541475202_{"id":2,"name":"ddd","author":"ccc","price":13.0,"userEntities":null}_"addBook"_{"status":true,"message":"Đã thêm sách mới","timestamp":1608541475202}
+2020-12-21 16:05:52 INFO  UserController:37 - 1608541551977_"aaa"_"findBookByName"_{"status":true,"message":"Đã tìm thấy","timestamp":1608541551977,"result":[]}
+2020-12-21 16:58:36 INFO  UserController:36 - 1608544716329_"aaa"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608544716329,"result":[]}
+2020-12-21 16:58:58 INFO  UserController:36 - 1608544738539_"bb"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608544738539,"result":[]}
+2020-12-21 17:02:30 INFO  UserController:36 - 1608544950340_"abc"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608544950340,"result":[{"id":3,"name":"abc","author":"bbb","price":14.0,"userEntities":[]},{"id":4,"name":"abc","author":"ddd","price":12.0,"userEntities":[]}]}
+2020-12-21 17:11:32 ERROR UserController:55 - 1608545492344_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":false,"message":"không tìm thấy người dùng này","timestamp":1608545492344}
+2020-12-21 17:18:38 ERROR UserController:55 - 1608545811617_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":false,"message":"không tìm thấy người dùng này","timestamp":1608545811617}
+2020-12-21 17:18:56 ERROR UserController:55 - 1608545936498_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":false,"message":"không tìm thấy người dùng này","timestamp":1608545936498}
+2020-12-21 17:20:03 ERROR UserController:55 - 1608545974526_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":false,"message":"không tìm thấy người dùng này","timestamp":1608545974526}
+2020-12-21 17:22:13 ERROR UserController:55 - 1608546015453_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":false,"message":"không tìm thấy người dùng này","timestamp":1608546015453}
+2020-12-21 17:22:36 INFO  UserController:51 - 1608546153126_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":true,"message":"Đã cập nhật thông tin người dùng","timestamp":1608546153126}
+2020-12-21 17:22:49 INFO  UserController:51 - 1608546169286_{"id":null,"name":"abcd","address":"HN","age":14,"bookEntities":null}_"updateUser"_{"status":true,"message":"Đã cập nhật thông tin người dùng","timestamp":1608546169286}
+2020-12-21 21:32:52 ERROR UserController:53 - 1608561171979_"addListUser"_{"status":false,"message":"Không thể thêm danh sách người dùng","timestamp":1608561171979}
+2020-12-21 21:35:10 ERROR UserController:53 - 1608561295644_"addListUser"_{"status":false,"message":"Không thể thêm danh sách người dùng","timestamp":1608561295644}
+2020-12-22 12:30:00 ERROR UserController:51 - 1608614999938_"addListUser"_{"status":false,"message":"Không thể thêm danh sách người dùng","timestamp":1608614999938}
+2020-12-22 12:31:37 ERROR UserController:51 - 1608615097452_"addListUser"_{"status":false,"message":"Không thể thêm danh sách người dùng","timestamp":1608615097452}
+2020-12-22 12:34:34 ERROR UserController:51 - 1608615274165
+2020-12-22 12:34:42 ERROR UserController:51 - 1608615282268
+2020-12-22 12:36:38 ERROR UserController:51 - 1608615330275
+2020-12-22 12:36:55 ERROR UserController:51 - 1608615414855
+2020-12-22 12:38:06 INFO  UserController:48 - 1608615485535
+2020-12-23 14:11:59 INFO  UserController:35 - 1608707519029_{"id":1,"name":"Nguyen Duc Phuong","address":"HN","age":21,"bookEntities":null}_"addUser"_{"status":true,"message":"Thêm người dùng thành công","timestamp":1608707519029}
+2020-12-24 07:55:17 INFO  UserController:36 - 1608771316642_"pokemon"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608771316642,"result":[]}
+2020-12-24 08:10:59 INFO  UserController:36 - 1608772259567_"Pokemon"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608772259567,"result":[]}
+2020-12-24 08:11:38 INFO  UserController:36 - 1608772298431_"ab"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608772298431,"result":[]}
+2020-12-24 08:11:41 INFO  UserController:36 - 1608772301061_"abc"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608772301061,"result":[{"id":3,"name":"abc","author":"aa","price":21.0,"userEntities":[]},{"id":4,"name":"abc","author":"bb","price":12.0,"userEntities":[]}]}
+2020-12-24 08:12:03 INFO  UserController:36 - 1608772323881_"Pokemon Green"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608772323881,"result":[{"id":1,"name":"Pokemon Green","author":"Tajiri Satoshi","price":250.0,"userEntities":[]}]}
+2020-12-24 08:12:14 INFO  UserController:36 - 1608772334446_"Pokemon "_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608772334446,"result":[]}
+2020-12-24 08:15:49 ERROR UserController:40 - 1608772548685_"Pokemon"_"findBooksByName"_{"status":false,"message":"Không tìm thấy tên sách","timestamp":1608772548685}
+2020-12-24 08:16:03 ERROR UserController:40 - 1608772563698_"Pokemon Red"_"findBooksByName"_{"status":false,"message":"Không tìm thấy tên sách","timestamp":1608772563698}
+2020-12-24 08:16:44 INFO  UserController:36 - 1608772603808_"Pokemon"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608772603808,"result":[{"id":1,"name":"Pokemon Green","author":"Tajiri Satoshi","price":250.0,"userEntities":[]},{"id":2,"name":"Pokemon Red","author":"Tajiri Satoshi","price":250.0,"userEntities":[]}]}
+2020-12-24 08:28:26 INFO  UserController:36 - 1608773306503_"Poke"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608773306503,"result":[{"id":1,"name":"Pokemon Green","author":"Tajiri Satoshi","price":250.0,"userEntities":[]},{"id":2,"name":"Pokemon Red","author":"Tajiri Satoshi","price":250.0,"userEntities":[]}]}
+2020-12-24 08:28:34 INFO  UserController:36 - 1608773314548_"mon"_"findBooksByName"_{"status":true,"message":"Đã tìm thấy sách","timestamp":1608773314548,"result":[{"id":1,"name":"Pokemon Green","author":"Tajiri Satoshi","price":250.0,"userEntities":[]},{"id":2,"name":"Pokemon Red","author":"Tajiri Satoshi","price":250.0,"userEntities":[]}]}
+2020-12-24 16:15:45 INFO  UserController:34 - 1608801345135_{"id":1,"name":"Nguyen Duc Phuong","address":"HN","age":21}_"addUser"_{"status":true,"message":"Thêm người dùng thành công","timestamp":1608801345135}
+2020-12-24 16:17:55 INFO  UserController:48 - 1608801475367
+2020-12-24 16:19:17 INFO  UserController:63 - 1608801557563_{"id":null,"name":"Nguyễn Đức Phương","address":"HN","age":21}_"updateUser"_{"status":true,"message":"Đã cập nhật thông tin người dùng","timestamp":1608801557563}
+2020-12-24 16:19:44 INFO  UserController:79 - 1608801584382_3_"deleteUserById"_{"status":true,"message":"Xóa thành công","timestamp":1608801584382}
